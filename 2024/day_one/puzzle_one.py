@@ -23,6 +23,7 @@ class PuzzleOneMain:
         the bigger number from the smaller number to negate obtaining
         a negative number
         """
+
         if smallest_left <= smallest_right:
             distance = smallest_right - smallest_left
         else:
